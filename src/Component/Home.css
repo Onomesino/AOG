@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar-nav .nav-link {
+  white-space: nowrap;
+  margin-right: 10px;
+}
+
+.image {
+  width: 100rem;
+  height: 40rem;
+}
+h3 {
+  margin-right: 40rem;
+  margin-bottom: 20rem;
+  font-size: 30px;
+  font-family: serif;
+}
+.contact-btn {
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.contact-btn:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border-color: aliceblue;
+}
+.us {
+  text-align: center;
+  margin-top: 85px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  font-style: italic;
+  text-decoration: underline;
+}
+.Ministry {
+  text-align: center;
+  margin-top: 10rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  font-style: italic;
+  text-decoration: underline;
+}
+.aog {
+  margin-left: 10rem;
+  margin-top: 30px;
+}
+span {
+  margin-left: 10rem;
+}
+.span {
+  margin-left: 21rem;
+}
+.column {
+  width: 80%;
+  margin-top: 110px;
+  /* box-sizing: border-box; */
+  /* box-shadow: 0 0 10px #000; */
+}
+.row {
+  box-sizing: border-box;
+  box-shadow: 0 0 30px rgb(4, 4, 63);
+  height: 30rem;
+  border-radius: 1rem;
+}
+h1 {
+  margin-left: 50px;
+  margin-top: 100px;
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+.image {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.para {
+  margin-left: 2rem;
+  margin-top: 2rem;
+  font-size: larger;
+}
+.dog {
+  margin-top: 2rem;
+  font-size: larger;
+}
+.button {
+  /* margin-left: 20rem; */
+  margin-top: 2.5rem;
+  background-color: rgb(30, 58, 138);
+  color: #fff;
+  border-color: rgb(11, 66, 115);
+  width: 10rem;
+  height: 3rem;
+  border-radius: 2px;
+  margin-left: 2rem;
+}
+.DOG {
+  margin-top: 90px;
+  margin-left: 100px;
+}
+footer {
+  background-color: rgb(30, 58, 138);
+  height: 20rem;
+  margin-top: 10rem;
+  padding-top: 1rem;
+}
+.Flogo {
+  width: 6rem;
+  margin-left: 40rem;
+  /* padding-top: 2rem; */
+  margin-top: -6.3rem;
+}
+hr {
+  color: #fff;
+  line-height: 20rem;
+}
+.footlink {
+  color: #fff;
+  margin-left: 10rem;
+  margin-bottom: -20rem;
+  font-size: small;
+  text-decoration: none;
+  margin-top: 50rem;
+}
+.facebook {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 68rem;
+  border-radius: 10rem;
+  font-size: 1.5rem;
+  /* margin-top: -1rem; */
+  margin-bottom: -2rem;
+  display: inline-block;
+}
+.ig {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 71rem;
+  border-radius: 10rem;
+  font-size: 1.5rem;
+  margin-top: -0.4rem;
+  margin-bottom: -20rem;
+}
+.yt {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 74rem;
+  border-radius: 10rem;
+  font-size: 1.5rem;
+  margin-top: 18.5rem;
+}
+#service {
+  font-size: 11px;
+  color: #fff;
+  margin-left: 40px;
+  margin-top: 80px;
+}
+#gms {
+  font-size: 11px;
+  color: #fff;
+  margin-left: 40px;
+}
+#WED {
+  font-size: 11px;
+  color: #fff;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+#FRI {
+  font-size: 11px;
+  color: #fff;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+#Fri {
+  font-size: 11px;
+  color: #fff;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+#add {
+  font-size: 12px;
+  color: #fff;
+  margin-left: 68rem;
+  margin-top: -7rem;
+}
+#number {
+  font-size: 12px;
+  color: #fff;
+  margin-left: 68rem;
+  margin-top: 1.5rem;
+}
