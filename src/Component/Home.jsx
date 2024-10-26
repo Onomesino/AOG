@@ -28,61 +28,61 @@ function BasicExample() {
 
   return (
     <>
-      <Navbar expand="lg" className="bg-blue-900">
+      <Navbar expand="lg" classNameName="bg-blue-900">
         <Container>
           <Navbar.Brand href="#home" onClick={() => window.location.reload()}>
-            <img src={Logo} alt="logo" className="mt-2 h-14 w-18" />
+            <img src={Logo} alt="logo" classNameName="mt-2 h-14 w-18" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto flex-wrap pl-5">
+            <Nav classNameName="me-auto flex-wrap pl-5">
               <Nav.Link
                 href="#about"
-                className="text-white text-xs ml-72 space-x-0.5"
+                classNameName="text-white text-xs ml-72 space-x-0.5"
                 onClick={scrollToAbout}
               >
                 ABOUT US
               </Nav.Link>
               <Nav.Link
                 href="#ministries"
-                className="text-white text-xs ml-5 space-x-0.5"
+                classNameName="text-white text-xs ml-5 space-x-0.5"
                 onClick={scrollToMinistries}
               >
                 MINISTRIES
               </Nav.Link>
               <Nav.Link
                 href="#link"
-                className="text-white text-xs ml-5 space-x-0.5"
+                classNameName="text-white text-xs ml-5 space-x-0.5"
               >
                 MEDIA
               </Nav.Link>
               <Nav.Link
                 href="#link"
-                className="text-white text-xs ml-5 space-x-0.5"
+                classNameName="text-white text-xs ml-5 space-x-0.5"
               >
                 PARTNERSHIP
               </Nav.Link>
               <Nav.Link
                 href="#link"
-                className="text-white text-xs ml-5 space-x-0.5"
+                classNameName="text-white text-xs ml-5 space-x-0.5"
               >
                 MEETING DAYS
               </Nav.Link>
               <Nav.Link
                 href="#link"
-                className="text-white text-xs ml-5 space-x-0.5"
+                classNameName="text-white text-xs ml-5 space-x-0.5"
               >
                 OUTLINE
               </Nav.Link>
               <Nav.Link
                 href="#link"
-                className="text-white text-xs ml-5 space-x-0.5"
+                classNameName="text-white text-xs ml-5 space-x-0.5"
               >
                 CONTACT US
               </Nav.Link>
               {/* <Nav.Link
               href="#link"
-              className="text-white text-xs ml-3 space-x-5"
+              classNameName="text-white text-xs ml-3 space-x-5"
             >
               Link
             </Nav.Link> */}
@@ -113,15 +113,15 @@ function BasicExample() {
           </p>
 
           {/* Button */}
-          <button className="contact-btn">Contact Us</button>
+          <button classNameName="contact-btn">Contact Us</button>
         </div>
       </div>
 
       <section>
-        <h1 ref={aboutRef} className="us">
+        <h1 ref={aboutRef} classNameName="us">
           About Us
         </h1>
-        <h5 className="aog">
+        <h5 classNameName="aog">
           Arena of Glory International (AOGI) is an inter-denominational
           Christian fellowship which seeks to train and revive young men <br />
           <span>
@@ -129,28 +129,28 @@ function BasicExample() {
             God’s purpose in various
           </span>
           <br />
-          <span className="span">
+          <span classNameName="span">
             tertiary institutions and cities across the globe.
           </span>
         </h5>
       </section>
 
       <section>
-        <h1 ref={ministriesRef} className="Ministry">
+        <h1 ref={ministriesRef} classNameName="Ministry">
           Ministries
         </h1>
 
-        <Container className="column">
-          <Row className="row">
+        <Container classNameName="column">
+          <Row classNameName="row">
             <Col>
               <h1>School Of Ministy</h1>
 
-              <h6 className="para">
+              <h6 classNameName="para">
                 Join the School Of Ministry with Bishop Prof Dr Christopher
                 Twumasi-Ankrah, every Sunday from 6:00am to 7:00am Live.{" "}
               </h6>
 
-              <button type="button" className="button">
+              <button type="button" classNameName="button">
                 Read more
               </button>
             </Col>
@@ -159,26 +159,26 @@ function BasicExample() {
                 src={Daddy7}
                 alt="Daddy"
                 style={{ width: "70%", height: "60%" }}
-                className="image"
+                classNameName="image"
               />
             </Col>
           </Row>
           <br />
           <br />
           <br />
-          <Row className="row">
+          <Row classNameName="row">
             <Col>
               <img
                 src={DOG}
                 alt="DOG"
                 style={{ width: "70%", height: "60%" }}
-                className="DOG"
+                classNameName="DOG"
               />
             </Col>
             <Col>
               <h1>Daughter Of Glory</h1>
               <h2>Tea Time With The Holy Spirit</h2>
-              <h6 className="dog">
+              <h6 classNameName="dog">
                 Experience and amazing time with the Holy Spirit in the word and
                 hear the words of wisdom form Apostle Prophet Adwoa Twumwaa
                 Ansah. Every Mondays form 7Pm to 8Pm.
@@ -190,7 +190,7 @@ function BasicExample() {
               women of God. */}
               </h6>
 
-              <button type="button" className="button">
+              <button type="button" classNameName="button">
                 Read more
               </button>
             </Col>
@@ -198,11 +198,11 @@ function BasicExample() {
           <br />
           <br />
           <br />
-          <Row className="row">
+          <Row classNameName="row">
             <Col>
               <h1>Hearts Of Glory International </h1>
 
-              <h6 className="para">
+              <h6 classNameName="para">
                 Enjoy the wonders of the Word form a woman who is grounded in
                 the Word of GOD and teaches with all understanding. Join mama
                 Tash every Tuesday from 12 noon to 2Pm online or Top Ridge
@@ -214,7 +214,7 @@ function BasicExample() {
               Jesus. */}
               </h6>
 
-              <button type="button" className="button">
+              <button type="button" classNameName="button">
                 Read more
               </button>
             </Col>
@@ -223,7 +223,7 @@ function BasicExample() {
                 src={MamaT}
                 alt="HOG"
                 style={{ width: "55%", height: "80%" }}
-                className="image"
+                classNameName="image"
               />
             </Col>
           </Row>
@@ -231,22 +231,22 @@ function BasicExample() {
       </section>
 
       <footer>
-        <a href="#about" className="footlink" onClick={scrollToAbout}>
+        <a href="#about" classNameName="footlink" onClick={scrollToAbout}>
           About Us
         </a>
-        <a href="#" className="footlink">
+        <a href="#" classNameName="footlink">
           MEDIA
         </a>
-        <a href="#" className="footlink">
+        <a href="#" classNameName="footlink">
           PARTNERSHIP
         </a>
-        <a href="#" className="footlink">
+        <a href="#" classNameName="footlink">
           MEETING DAYS
         </a>
-        <a href="#" className="footlink">
+        <a href="#" classNameName="footlink">
           OUTLINE
         </a>
-        <a href="#" className="footlink">
+        <a href="#" classNameName="footlink">
           CONTACT US
         </a>
         <hr />
@@ -256,7 +256,7 @@ function BasicExample() {
         <h6 id="FRI">Friday: Hour Of Grace at 6Pm to 8Pm.</h6>
         <h6 id="Fri">Every two weeks Friday, All-Night at 9Pm to 4AM</h6>
 
-        <img src={Logo} alt="logo" className="Flogo" />
+        <img src={Logo} alt="logo" classNameName="Flogo" />
 
         <h6 id="add">
           Top Ridge School Santa Maria,
@@ -264,9 +264,9 @@ function BasicExample() {
           <br /> Off Kwashieman Road.
         </h6>
         <h6 id="number">(000)00000000</h6>
-        <img src={Facebook4} alt="facebook" className="facebook" />
-        <img src={Ig4} alt="facebook" className="ig" />
-        <img src={Youtube1} alt="facebook" className="yt" />
+        <img src={Facebook4} alt="facebook" classNameName="facebook" />
+        <img src={Ig4} alt="facebook" classNameName="ig" />
+        <img src={Youtube1} alt="facebook" classNameName="yt" />
       </footer>
     </>
   );
