@@ -9,7 +9,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Daddy7 from "../Images/Daddy7.jpeg";
 import DOG from "../Images/DOG.jpeg";
-import MamaT from "../Images/MamaT.jpeg";
+import MamaT1 from "../Images/MamaT1.jpeg";
 import Facebook4 from "../Images/Facebook4.jpeg";
 import Ig4 from "../Images/Ig4.jpeg";
 import Youtube1 from "../Images/Youtube1.jpeg";
@@ -220,9 +220,9 @@ function BasicExample() {
             </Col>
             <Col>
               <img
-                src={MamaT}
+                src={MamaT1}
                 alt="HOG"
-                style={{ width: "55%", height: "80%" }}
+                style={{ width: "50%", height: "70%" }}
                 className="image"
               />
             </Col>
