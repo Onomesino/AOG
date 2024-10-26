@@ -1,5 +1,5 @@
 // Footer Component
-const Footer = () => (
+const Footer = () => 
     <footer id="fh5co-footer" role="contentinfo">
       <div classNameName="container-wrap">
         <div classNameName="row text-center">
